@@ -13,7 +13,7 @@ def create_model(shape, num_classes):
     model.add( Conv1D(256, 3, padding='same', activation='relu') )
     model.add( MaxPooling1D(2) )
     
-    model.add( LSTM(128, dropout=0.8, activation = 'relu') )
+    model.add( LSTM(128, dropout=0.2, activation = 'relu') )
 
     model.add( Dense(num_classes, activation='softmax') )
     return model
