@@ -3,7 +3,6 @@
 import numpy as np
 import csv
 from sklearn.preprocessing import normalize as norm
-import pickle
 
 
 def window_data( data, window_size ):

@@ -4,13 +4,6 @@ import data_handler as data
 import numpy as np
 import os
 
-import tensorflow as tf
-from keras.backend.tensorflow_backend import set_session
-config = tf.ConfigProto()
-config.gpu_options.allow_growth = True
-sess = tf.Session( config=config )
-set_session( sess )
-
 
 def create_model(shape, num_classes):
     model = Sequential()
