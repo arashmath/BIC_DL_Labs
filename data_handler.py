@@ -6,7 +6,7 @@ from sklearn.preprocessing import normalize as norm
 
 
 def window_data( data, window_size ):
-    #data = np.array( data )
+    data = np.array( data )
     w_data = [ data[ i*window_size : (i+1)*window_size ]
                for i in range( len(data) // window_size ) ]
     return w_data
