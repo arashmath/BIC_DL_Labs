@@ -4,7 +4,7 @@ Gets to 98.40% test accuracy after 20 epochs
 (there is *a lot* of margin for parameter tuning).
 2 seconds per epoch on a K520 GPU.
 
- New version created on 4 Oct 2022 to run on Google Colab. This version import. tensorflow.keras instead of keras. 
+ New version created on 4 Oct 2022 to run on Google Colab. This version import. tensorflow.keras instead of keras.--- Wei Pang
  
 '''
 
