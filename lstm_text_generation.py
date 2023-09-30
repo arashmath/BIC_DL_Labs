@@ -17,7 +17,8 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
 from keras.optimizers import RMSprop
-from keras.utils.data_utils import get_file
+# from keras.utils.data_utils import get_file
+from keras.utils import get_file  # data_utils is no longer available for newer version of keras
 import numpy as np
 import random
 import sys
